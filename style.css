@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+}
+.product-page{
+    position: relative;
+    width: 1440px;
+    height: 856px;
+    background: #FFFFFF;
+}
+.frame1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 36px;
+    width: 595px;
+    height: 613px;
+}
+.frame2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 1125px;
+    height: 613px;
+    right: 157px;
+    top: 152px;
+}
+.lead-text{
+    width: 595px;
+    height: 306px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 108px;
+    line-height: 102px;
+    color: #000000;
+
+}
+.following-text{
+width: 404px;
+height: 91px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #5A5959;
+}
+
+.shop-now{
+    width: 118px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+#shop-now{
+    border:0;
+    color: white;
+    background-color:#d01c28;
+}
+.category{
+    width: 109px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #5A5959;
+}
+.auto-layout{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 331px;
+    height: 41px;
+}
+.shoe{
+    width: 530px;
+    height: 487.06px;
+    
+    background: url(domino-164_6wVEHfI-unsplash.png);
+    filter: drop-shadow(32px 32px 24px rgba(0, 0, 0, 0.3));
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
